@@ -1,0 +1,8 @@
+../Core/Src/freertos.c:75:6:vApplicationGetIdleTaskMemory	24	static
+../Core/Src/freertos.c:89:6:MX_FREERTOS_Init	128	static
+../Core/Src/freertos.c:140:6:StartDefaultTask	16	static
+../Core/Src/freertos.c:158:6:ListenerThread	16	static
+../Core/Src/freertos.c:178:6:ControllerThread	16	static
+../Core/Src/freertos.c:197:6:PresenterThread	16	static
+../Core/Src/freertos.c:212:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/freertos.c:222:6:HAL_UART_RxCpltCallback	16	static

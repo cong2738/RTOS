@@ -1,0 +1,8 @@
+../Core/Src/freertos.c:75:6:vApplicationGetIdleTaskMemory	1
+../Core/Src/freertos.c:89:6:MX_FREERTOS_Init	1
+../Core/Src/freertos.c:140:6:StartDefaultTask	1
+../Core/Src/freertos.c:158:6:ListenerThread	1
+../Core/Src/freertos.c:178:6:ControllerThread	1
+../Core/Src/freertos.c:197:6:PresenterThread	1
+../Core/Src/freertos.c:212:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/freertos.c:222:6:HAL_UART_RxCpltCallback	2

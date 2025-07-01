@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;20250701_TImeWatch_StopWatch/Core/ap/src/queue.c&apos; to &apos;my_queue.c&apos;" description="Rename resource &apos;queue.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/ap/src/queue.c" name="my_queue.c" stamp="1751351012980" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;20250701_TImeWatch_StopWatch/Core/ap/inc/queue.h&apos; to &apos;my_queue.h&apos;" description="Rename resource &apos;queue.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/ap/inc/queue.h" name="my_queue.h" stamp="1751351018362" updateReferences="true"/>
+</session>

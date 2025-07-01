@@ -1,0 +1,88 @@
+16:48:37 **** Incremental Build of configuration Debug for project 20250701_TImeWatch_StopWatch ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/ap/src/Controller.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/Button" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/FND" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LedBar" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/src" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LCD" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/inc" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/buzzer" -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/ap/src/Controller.d" -MT"Core/ap/src/Controller.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/ap/src/Controller.o"
+arm-none-eabi-gcc "../Core/ap/src/Listener.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/Button" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/FND" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LedBar" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/src" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LCD" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/inc" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/buzzer" -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/ap/src/Listener.d" -MT"Core/ap/src/Listener.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/ap/src/Listener.o"
+arm-none-eabi-gcc "../Core/ap/src/Presenter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/Button" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/FND" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LedBar" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/src" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LCD" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/inc" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/buzzer" -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/ap/src/Presenter.d" -MT"Core/ap/src/Presenter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/ap/src/Presenter.o"
+arm-none-eabi-gcc "../Core/ap/src/ap_main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/Button" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/FND" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LedBar" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/src" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LCD" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/inc" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/buzzer" -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/ap/src/ap_main.d" -MT"Core/ap/src/ap_main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/ap/src/ap_main.o"
+arm-none-eabi-gcc "../Core/ap/src/model_watch.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/Button" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/FND" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LedBar" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/src" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LCD" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/inc" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/buzzer" -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/ap/src/model_watch.d" -MT"Core/ap/src/model_watch.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/ap/src/model_watch.o"
+arm-none-eabi-gcc "../Core/ap/src/stopWatch.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/Button" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/FND" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LedBar" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/src" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LCD" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/inc" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/buzzer" -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/ap/src/stopWatch.d" -MT"Core/ap/src/stopWatch.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/ap/src/stopWatch.o"
+arm-none-eabi-gcc "../Core/ap/src/timeWatch.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/Button" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/FND" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LedBar" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/src" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LCD" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/inc" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/buzzer" -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/ap/src/timeWatch.d" -MT"Core/ap/src/timeWatch.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/ap/src/timeWatch.o"
+arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/Button" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/FND" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LedBar" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/src" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LCD" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/inc" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/buzzer" -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/freertos.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/Button" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/FND" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LedBar" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/src" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/LCD" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/ap/inc" -I"C:/harman/RTOS/20250701_TImeWatch_StopWatch/Core/driver/buzzer" -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/ap/src/Controller.c:17:8: error: unknown type name 'button_state_t'
+   17 | static button_state_t btnWatch = {0};
+      |        ^~~~~~~~~~~~~~
+../Core/ap/src/Controller.c: In function 'Controller_Mode':
+../Core/ap/src/Controller.c:32:29: error: request for member 'id' in something not a structure or union
+   32 |                 if (btnWatch.id == BTN_MODE) {
+      |                             ^
+../Core/ap/src/Controller.c:38:29: error: request for member 'id' in something not a structure or union
+   38 |                 if (btnWatch.id == BTN_MODE) {
+      |                             ^
+make: *** [Core/ap/src/subdir.mk:43: Core/ap/src/Controller.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/ap/src/Listener.c: In function 'Listener_CheckButton':
+../Core/ap/src/Listener.c:48:25: error: request for member 'id' in something not a structure or union
+   48 |                 btnWatch.id = BTN_MODE;
+      |                         ^
+../Core/ap/src/Listener.c:49:33: error: 'buttonEvent' undeclared (first use in this function); did you mean 'button_t'?
+   49 |                 enQue(&btnQue, &buttonEvent);
+      |                                 ^~~~~~~~~~~
+      |                                 button_t
+../Core/ap/src/Listener.c:49:33: note: each undeclared identifier is reported only once for each function it appears in
+../Core/ap/src/Listener.c:52:25: error: request for member 'id' in something not a structure or union
+   52 |                 btnWatch.id = BTN_RUN_STOP;
+      |                         ^
+../Core/ap/src/Listener.c:56:25: error: request for member 'id' in something not a structure or union
+   56 |                 btnWatch.id = BTN_CLEAR;
+      |                         ^
+../Core/ap/src/Listener.c: In function 'Listener_UartCallBack':
+../Core/ap/src/Listener.c:95:39: error: 'rcvData' undeclared (first use in this function)
+   95 |         HAL_UART_Receive_IT(&huart2, &rcvData, 1); // interrupt enable
+      |                                       ^~~~~~~
+../Core/ap/src/Listener.c: In function 'Listener_GetStoredDistance':
+../Core/ap/src/Listener.c:101:12: error: 'stored_distance' undeclared (first use in this function)
+  101 |     return stored_distance;
+      |            ^~~~~~~~~~~~~~~
+../Core/ap/src/Listener.c: At top level:
+../Core/ap/src/Listener.c:13:13: warning: 'Listener_CheckUart' declared 'static' but never defined [-Wunused-function]
+   13 | static void Listener_CheckUart();
+      |             ^~~~~~~~~~~~~~~~~~
+../Core/ap/src/Listener.c: In function 'Listener_GetStoredDistance':
+../Core/ap/src/Listener.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+  102 | }
+      | ^
+make: *** [Core/ap/src/subdir.mk:43: Core/ap/src/Listener.o] Error 1
+../Core/Src/freertos.c: In function 'ListenerThread':
+../Core/Src/freertos.c:161:9: warning: implicit declaration of function 'Listener_Init' [-Wimplicit-function-declaration]
+  161 |         Listener_Init();
+      |         ^~~~~~~~~~~~~
+../Core/Src/freertos.c:165:17: warning: implicit declaration of function 'Listener_Excute' [-Wimplicit-function-declaration]
+  165 |                 Listener_Excute();
+      |                 ^~~~~~~~~~~~~~~
+../Core/Src/freertos.c: In function 'ControllerThread':
+../Core/Src/freertos.c:184:9: warning: implicit declaration of function 'Controller_Excute' [-Wimplicit-function-declaration]
+  184 |         Controller_Excute();
+      |         ^~~~~~~~~~~~~~~~~
+../Core/Src/freertos.c: In function 'PresenterThread':
+../Core/Src/freertos.c:200:9: warning: implicit declaration of function 'Presenter_Init' [-Wimplicit-function-declaration]
+  200 |         Presenter_Init();
+      |         ^~~~~~~~~~~~~~
+../Core/Src/freertos.c:204:17: warning: implicit declaration of function 'Presenter_Excute' [-Wimplicit-function-declaration]
+  204 |                 Presenter_Excute();
+      |                 ^~~~~~~~~~~~~~~~
+../Core/Src/freertos.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/freertos.c:215:17: warning: implicit declaration of function 'FND_DispDataCallBack' [-Wimplicit-function-declaration]
+  215 |                 FND_DispDataCallBack();
+      |                 ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/freertos.c:217:17: warning: implicit declaration of function 'TimeWatch_IncTimeCallBack' [-Wimplicit-function-declaration]
+  217 |                 TimeWatch_IncTimeCallBack();
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/freertos.c:218:17: warning: implicit declaration of function 'StopWatch_IncTimeCallBack' [-Wimplicit-function-declaration]
+  218 |                 StopWatch_IncTimeCallBack();
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/freertos.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/freertos.c:225:17: warning: implicit declaration of function 'Listener_UartCallBack' [-Wimplicit-function-declaration]
+  225 |                 Listener_UartCallBack();
+      |                 ^~~~~~~~~~~~~~~~~~~~~
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
