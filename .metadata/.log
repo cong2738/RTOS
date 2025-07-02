@@ -248,3 +248,136 @@ java.lang.Exception: Resource '/20250701_ARM_RTOS_LedBlink/Debug/Core/AP' does n
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-07-01 14:47:59.357
 !MESSAGE Indexed '20250701_TImeWatch_StopWatch' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2025-07-02 12:10:21.139 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-02 12:10:29.472
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-02 12:10:29.474
+!MESSAGE Log4j2 initialized with config file C:\harman\RTOS\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-02 12:10:40.014
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-02 12:11:10.273
+!MESSAGE Indexed '20250702_RTOS_Led_Button' (36 sources, 145 headers) in 2.85 sec: 14,428 declarations; 61,332 references; 10 unresolved inclusions; 1,027 syntax errors; 1,422 unresolved names (1.8%)
+
+!ENTRY org.eclipse.core.resources 2 2 2025-07-02 12:22:46.987
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2025-07-02 12:22:46.987
+!MESSAGE The project description file (.project) for '20250702_RTOS_Led_Button' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-02 12:22:49.038
+!MESSAGE Indexed '20250701_TImeWatch_StopWatch' (55 sources, 216 headers) in 2.01 sec: 20,757 declarations; 93,434 references; 1 unresolved inclusions; 202 syntax errors; 251 unresolved names (0.22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-02 12:24:53.696
+!MESSAGE Indexed '20250702_RTOS_Led_Button' (37 sources, 150 headers) in 1.69 sec: 14,572 declarations; 63,659 references; 1 unresolved inclusions; 202 syntax errors; 241 unresolved names (0.31%)
+!SESSION 2025-07-02 13:20:03.837 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-02 13:20:11.080
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-02 13:20:11.081
+!MESSAGE Log4j2 initialized with config file C:\harman\RTOS\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-02 13:20:16.061
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-02 13:20:24.283
+!MESSAGE Indexed '20250702_RTOS_Led_Button' (37 sources, 146 headers) in 4.33 sec: 14,486 declarations; 61,497 references; 11 unresolved inclusions; 1,027 syntax errors; 1,441 unresolved names (1.9%)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-07-02 14:20:23.029
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.internal.ui.actions.DsfTerminateCommand$3$1@738d792f): Status OK: unknown code=0 OK' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2025-07-02 15:01:30.299
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: C:\harman\RTOS\20250702_RTOS_Led_Button\Debug\20250702_RTOS_Led_Button.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:334)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2025-07-02 15:01:30.300
+!MESSAGE C:\harman\RTOS\20250702_RTOS_Led_Button\Debug\20250702_RTOS_Led_Button.elf not found
+!STACK 0
+java.io.FileNotFoundException: C:\harman\RTOS\20250702_RTOS_Led_Button\Debug\20250702_RTOS_Led_Button.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:334)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-02 15:53:17.127
+!MESSAGE Indexed '20250702_RTOS_Led_Button' (42 sources, 153 headers) in 1.7 sec: 15,787 declarations; 74,382 references; 12 unresolved inclusions; 1,148 syntax errors; 1,674 unresolved names (1.8%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-02 15:54:15.681
+!MESSAGE Indexed '20250702_RTOS_Led_Button' (41 sources, 155 headers) in 1.37 sec: 15,690 declarations; 76,596 references; 1 unresolved inclusions; 202 syntax errors; 241 unresolved names (0.26%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-07-02 15:56:52.897
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 67 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-07-02 15:56:52.898
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-07-02 15:56:52.898
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 67 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-07-02 15:56:52.899
+!MESSAGE Existing sessions are:
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2025-07-02 16:24:57.542
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: C:\harman\RTOS\20250702_RTOS_Led_Button\Debug\20250702_RTOS_Led_Button.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:334)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2025-07-02 16:24:57.542
+!MESSAGE C:\harman\RTOS\20250702_RTOS_Led_Button\Debug\20250702_RTOS_Led_Button.elf not found
+!STACK 0
+java.io.FileNotFoundException: C:\harman\RTOS\20250702_RTOS_Led_Button\Debug\20250702_RTOS_Led_Button.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:334)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-02 17:21:05.031
+!MESSAGE Indexed '20250702_RTOS_Led_Button' (43 sources, 158 headers) in 1.84 sec: 16,250 declarations; 80,049 references; 1 unresolved inclusions; 202 syntax errors; 241 unresolved names (0.25%)

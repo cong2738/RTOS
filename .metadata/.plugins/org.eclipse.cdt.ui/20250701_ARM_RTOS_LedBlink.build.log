@@ -1,4 +1,4 @@
-16:12:23 **** Incremental Build of configuration Debug for project 20250701_ARM_RTOS_LedBlink ****
+16:48:41 **** Incremental Build of configuration Debug for project 20250701_ARM_RTOS_LedBlink ****
 make -j16 all 
 arm-none-eabi-size  20250701_ARM_RTOS_LedBlink.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  20250701_ARM_RTOS_LedBlink.elf
 Finished building: default.size.stdout
  
 
-16:12:23 Build Finished. 0 errors, 0 warnings. (took 259ms)
+16:48:41 Build Finished. 0 errors, 0 warnings. (took 252ms)
 
