@@ -3,6 +3,8 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="btnMail"/>
+		<item value="lcd"/>
 		<item value="start"/>
 		<item value="USER CODE"/>
 	</list>
