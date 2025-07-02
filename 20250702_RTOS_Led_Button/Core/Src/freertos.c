@@ -242,7 +242,7 @@ void StartButtonTask(void const *argument) {
 		osMutexWait(LcdMutexHandle, osWaitForever);
 		LCD_writeStringXY(0, 5, str);
 		osMutexRelease(LcdMutexHandle);
-		osDelay(100);
+		osDelay(1000);
 	}
 	/* USER CODE END StartButtonTask */
 }
@@ -273,7 +273,7 @@ void StartLedTask(void const *argument) {
 			ledData ^= (1 << 0);
 			LedBar_Write(ledData);
 		}
-		evt = osMailGet(btnMail, 0);
+		evt = osMailGet(btnMail, osWaitForever);
 		if (evt.status == osEventMail) {
 			btnData = evt.value.p;
 			if (btnData->id == BTN_LED1) {
@@ -323,6 +323,7 @@ void StartFNDTask(void const *argument) {
 
 	int counter = 0;
 	for (;;) {
+		FND_WriteData(counter);
 		evt = osMailGet(fndMail, 0);
 		if (evt.status == osEventMail) {
 			fndData = evt.value.p;
@@ -339,8 +340,7 @@ void StartFNDTask(void const *argument) {
 			counter++;
 			counter%= 10000;
 		}
-		FND_WriteData(counter);
-		osDelay(100);
+		osDelay(1000);
 		/* USER CODE END StartFNDTask */
 	}
 }

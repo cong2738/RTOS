@@ -1,10 +1,17 @@
-17:26:03 **** Incremental Build of configuration Debug for project 20250702_RTOS_Led_Button ****
+17:35:25 **** Incremental Build of configuration Debug for project 20250702_RTOS_Led_Button ****
 make -j16 all 
+arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I"C:/harman/RTOS/20250702_RTOS_Led_Button/Core/driver/Button" -I"C:/harman/RTOS/20250702_RTOS_Led_Button/Core/driver/LedBar" -I"C:/harman/RTOS/20250702_RTOS_Led_Button/Core/driver/LCD" -I"C:/harman/RTOS/20250702_RTOS_Led_Button/Core/driver/FND" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/freertos.o"
+arm-none-eabi-gcc -o "20250702_RTOS_Led_Button.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\harman\RTOS\20250702_RTOS_Led_Button\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="20250702_RTOS_Led_Button.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 20250702_RTOS_Led_Button.elf
+ 
 arm-none-eabi-size  20250702_RTOS_Led_Button.elf 
+arm-none-eabi-objdump -h -S 20250702_RTOS_Led_Button.elf  > "20250702_RTOS_Led_Button.list"
    text	   data	    bss	    dec	    hex	filename
-  30040	    256	  18592	  48888	   bef8	20250702_RTOS_Led_Button.elf
+  30056	    256	  18592	  48904	   bf08	20250702_RTOS_Led_Button.elf
 Finished building: default.size.stdout
  
+Finished building: 20250702_RTOS_Led_Button.list
+ 
 
-17:26:03 Build Finished. 0 errors, 0 warnings. (took 321ms)
+17:35:26 Build Finished. 0 errors, 0 warnings. (took 862ms)
 
